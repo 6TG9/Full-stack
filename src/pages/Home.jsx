@@ -8,6 +8,7 @@ import { ArrowUpRight, Github } from "lucide-react";
 import conpro from "../../public/card.png";
 import pro from "../../public/project image.png";
 import chapro from "../../public/project image (2).png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -259,7 +260,9 @@ const Home = () => {
           </p>
 
           <a href="/about" className="underline text-[#D3E97A]">
-            More about me
+            <Link to="/about" className="cursor-pointer">
+              More about me.
+            </Link>
           </a>
         </div>
       </div>
