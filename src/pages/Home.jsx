@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Tee from "../../public/DSC_0325_121613.jpg";
+import Tee from "../../public/image (1).png";
 import hub from "../../public/bxl-github.svg.png";
 import lin from "../../public/bxl-linkedin.svg (1).png";
 import { ArrowUpRight, Github } from "lucide-react";
