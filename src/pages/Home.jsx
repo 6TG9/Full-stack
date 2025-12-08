@@ -5,9 +5,9 @@ import Tee from "../../public/image (1).png";
 import hub from "../../public/bxl-github.svg.png";
 import lin from "../../public/bxl-linkedin.svg (1).png";
 import { ArrowUpRight, Github } from "lucide-react";
-import conpro from "../../public/card.png";
-import pro from "../../public/project image.png";
-import chapro from "../../public/project image (2).png";
+import conpro from "../../public/7bf3adde-c26b-458e-8448-bacf58e9bf60.png";
+import pro from "../../public/ChatGPT Image Dec 8, 2025, 08_39_06 AM.png";
+import chapro from "../../public/ChatGPT Image Dec 8, 2025, 08_20_01 AM.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -80,20 +80,17 @@ const Home = () => {
 
         {/* PROJECT CARD — 1 */}
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <img
-            src={conpro}
-            className="w-full max-w-[450px] rounded-md"
-            alt=""
-          />
+          <img src={pro} className="w-full max-w-[450px] rounded-md" alt="" />
 
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
               <h5 className="text-white font-medium text-[22px] md:text-[28px] leading-[140%]">
-                Promotional landing page for our favorite show
+                World Info App
               </h5>
               <p className="text-[#C7C7C7] text-[15px] leading-[150%]">
-                Teamed up with a designer to breathe life into a promotional
-                webpage for our beloved show, Adventure Time...
+                React + Vite app that displays world/country information —
+                frontend-ready project with a React component structure (see
+                repo for data sources).
               </p>
             </div>
 
@@ -115,7 +112,7 @@ const Home = () => {
 
             <div className="flex items-center space-x-12 text-[#d4e86a] font-semibold">
               <a
-                href="#"
+                href="https://worldtask.vercel.app/"
                 className="flex items-center space-x-2 border-b border-[#d4e86a] pb-1"
               >
                 <span>LIVE DEMO</span>
@@ -123,7 +120,7 @@ const Home = () => {
               </a>
 
               <a
-                href="#"
+                href="https://github.com/6TG9/worldApp.git"
                 className="flex items-center space-x-2 border-b border-[#d4e86a] pb-1"
               >
                 <span>SEE ON GITHUB</span>
@@ -135,16 +132,20 @@ const Home = () => {
 
         {/* PROJECT CARD — 2 */}
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <img src={pro} className="w-full max-w-[450px] rounded-md" alt="" />
+          <img
+            src={conpro}
+            className="w-full max-w-[450px] rounded-md"
+            alt=""
+          />
 
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
               <h5 className="text-white font-medium text-[22px] md:text-[28px]">
-                Blog site for World News
+                Beta House
               </h5>
               <p className="text-[#C7C7C7] leading-[150%]">
                 Mastered CSS Grid complexities in building an innovative news
-                homepage...
+                homepage, cloudinary,JWT authentication
               </p>
             </div>
 
@@ -170,7 +171,7 @@ const Home = () => {
             </div>
 
             <a
-              href="#"
+              href="https://beta-house-ttrm.vercel.app/"
               className="flex items-center gap-2 text-[#d4e86a] border-b border-[#d4e86a] pb-1 font-semibold"
             >
               <span>VIEW PROJECT</span>
@@ -190,11 +191,11 @@ const Home = () => {
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
               <h5 className="text-white font-medium text-[22px] md:text-[28px]">
-                E-commerce product page
+                Goal-Web App
               </h5>
               <p className="text-[#C7C7C7] leading-[150%]">
-                Crafted an engaging product page featuring a lightbox gallery
-                and cart system...
+                React + Vite single-page app for tracking goals — frontend built
+                with React and Vite (see repo for components and routing).
               </p>
             </div>
 
@@ -216,7 +217,7 @@ const Home = () => {
 
             <div className="flex items-center space-x-12 text-[#d4e86a] font-semibold">
               <a
-                href="#"
+                href="https://goal-frontend-ten.vercel.app/"
                 className="flex items-center gap-2 border-b border-[#d4e86a] pb-1"
               >
                 <span>LIVE DEMO</span>
@@ -224,7 +225,7 @@ const Home = () => {
               </a>
 
               <a
-                href="#"
+                href="https://github.com/6TG9/Goal-frontend.git"
                 className="flex items-center gap-2 border-b border-[#d4e86a] pb-1"
               >
                 <span>SEE ON GITHUB</span>
