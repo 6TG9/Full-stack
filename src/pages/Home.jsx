@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Tee from "../../public/image (1).png";
+import Tee from "../../public/DSC_0325_121613.jpg";
 import hub from "../../public/bxl-github.svg.png";
 import lin from "../../public/bxl-linkedin.svg (1).png";
 import { ArrowUpRight, Github } from "lucide-react";
@@ -85,7 +85,7 @@ const Home = () => {
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
               <h5 className="text-white font-medium text-[22px] md:text-[28px] leading-[140%]">
-                World Info App
+                World Info
               </h5>
               <p className="text-[#C7C7C7] text-[15px] leading-[150%]">
                 React + Vite app that displays world/country information —
